@@ -227,6 +227,10 @@ Tevens ben ik van mening dat Nederland overdekt dient te worden.
  A nested function can jump to a label inherited from a containing
  function, provided the label was explicitly declared in the containing
 ''')   
+        # Jeff commited a version of this as r20146
+        # (cdc15fa33f9e6ff16448a646f23841c3fa55bb3a in mirror)
+        # though it's not an exact match; see
+        # https://gcc.gnu.org/ml/gcc-patches/1998-05/msg00078.html
 
     def test_extract_mail_1998_05_msg00063(self):
         mail_url = 'https://gcc.gnu.org/ml/gcc-patches/1998-05/msg00063.html'
